@@ -1,12 +1,13 @@
+import img from"../assets/Arun.jpeg";
 export const mockUserData = {
     aadhaarNumber: "1234 5678 9012",
     name: "Rajesh Kumar",
     gender: "Male",
     dob: "1985-06-12",
-    address: "123 Main Street, Bangalore, Karnataka",
+    address: "123 Main Street, Sonipat, Haryana",
     phone: "9876543210",
     email: "rajesh.kumar@example.com",
-    photo: "/api/placeholder/120/150",
+    photo: "https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     isVerified: true
   };
   
@@ -47,7 +48,7 @@ export const mockUserData = {
     gender: "Male",
     aadhaarNumber: "1234 5678 9012",
     relationship: "self",
-    photo: "/api/placeholder/60/60",
+    photo: "https://plus.unsplash.com/premium_photo-1689568126014-06fea9d5d341?q=80&w=3270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     parents: [
       {
         id: "user-2",
@@ -55,15 +56,15 @@ export const mockUserData = {
         gender: "Male",
         aadhaarNumber: "2345 6789 0123",
         relationship: "father",
-        photo: "/api/placeholder/60/60",
+        photo: "https://images.unsplash.com/photo-1531891437562-4301cf35b7e4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDZ8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D",
         parents: [
           {
             id: "user-5",
-            name: "Ramesh Kumar",
+            name: "Mayank Yadav",
             gender: "Male",
             aadhaarNumber: "5678 9012 3456",
             relationship: "grandfather",
-            photo: "/api/placeholder/60/60"
+            photo: "https://images.unsplash.com/photo-1599834562135-b6fc90e642ca?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM4fHxtYW58ZW58MHx8MHx8fDA%3D"
           },
           {
             id: "user-6",
@@ -71,7 +72,7 @@ export const mockUserData = {
             gender: "Female",
             aadhaarNumber: "6789 0123 4567",
             relationship: "grandmother",
-            photo: "/api/placeholder/60/60"
+            photo: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjR8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D"
           }
         ]
       },
@@ -81,15 +82,15 @@ export const mockUserData = {
         gender: "Female",
         aadhaarNumber: "3456 7890 1234",
         relationship: "mother",
-        photo: "/api/placeholder/60/60",
+        photo: "https://plus.unsplash.com/premium_photo-1688740375397-34605b6abe48?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDl8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D",
         parents: [
           {
             id: "user-7",
-            name: "Krishna Murthy",
+            name: "Arun Suthar",
             gender: "Male",
             aadhaarNumber: "7890 1234 5678",
             relationship: "grandfather",
-            photo: "/api/placeholder/60/60"
+            photo: img
           },
           {
             id: "user-8",
@@ -97,7 +98,7 @@ export const mockUserData = {
             gender: "Female",
             aadhaarNumber: "8901 2345 6789",
             relationship: "grandmother",
-            photo: "/api/placeholder/60/60"
+            photo: "https://plus.unsplash.com/premium_photo-1690407617542-2f210cf20d7e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D"
           }
         ]
       }
@@ -109,7 +110,7 @@ export const mockUserData = {
         gender: "Male",
         aadhaarNumber: "4567 8901 2345",
         relationship: "son",
-        photo: "/api/placeholder/60/60"
+        photo: "https://plus.unsplash.com/premium_photo-1689977927774-401b12d137d6?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D"
       },
       {
         id: "user-9",
@@ -117,7 +118,7 @@ export const mockUserData = {
         gender: "Female",
         aadhaarNumber: "9012 3456 7890",
         relationship: "daughter",
-        photo: "/api/placeholder/60/60"
+        photo: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D"
       }
     ]
   };
